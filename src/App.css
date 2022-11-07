@@ -1,0 +1,44 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+body{
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);  
+  height: 60vh;
+}
+
+.container{
+  text-align:center;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:40vh;
+  top:40vh ;
+  padding:2px;
+  z-index: 2;
+}
+
+.jokes{
+  color:white;
+  padding:10px;
+}
+
+button{
+  background:none;
+  color:white;
+  border:1px solid white;
+  padding:5px;
+  position:absolute;
+  top:55vh;
+  left:47vw;
+  transition: 0.7s;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
